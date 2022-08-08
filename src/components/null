@@ -1,0 +1,11 @@
+      <h1>Programming Projects</h1>
+      <li>
+        <Card>
+          <h3>Programming Project 1</h3>
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"></img>
+        </Card>
+        <Card>
+          <h3>Programming Project 2</h3>
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"></img>
+        </Card>
+      </li>
