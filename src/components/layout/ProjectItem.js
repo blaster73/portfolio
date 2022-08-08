@@ -11,8 +11,8 @@ function PojectItem(props) {
         <h3>{props.title}</h3>
         <p>{props.description}</p>
       </div>
-      <div>
-        <button onClick={'/game-design'}> Go to Project</button>
+      <div className={classes.actions}>
+        <button onClick={"/game-design"}>Go to Project</button>
       </div>
     </Card>
   );

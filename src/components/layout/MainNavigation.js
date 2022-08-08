@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from './MainNavigation.module.css';
+import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
   return (
@@ -8,10 +8,13 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to='/' >Programming</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to='/game-design' >Game Design</Link>
+            <Link to="/programming">Programming</Link>
+          </li>
+          <li>
+            <Link to="/game-design">Game Design</Link>
           </li>
         </ul>
       </nav>
