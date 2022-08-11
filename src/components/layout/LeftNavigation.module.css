@@ -1,0 +1,24 @@
+.navbar {
+    background-color: black;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    left: 0px;
+    top: 0;
+    width: 7.5vw;
+    justify-content: flex-start;
+    align-items: left;
+    z-index: 1;
+    clear: both;
+}
+
+.navmenu {
+    background-color: black;
+    justify-content: center;
+    position: fixed;
+    top: 5%;
+}
+
+.text {
+    color: rgb(200, 200, 200);
+}

@@ -1,19 +1,19 @@
 import ProjectItem from "../components/layout/ProjectItem";
-
 import classes from "./Programming.module.css";
 
 function Programming() {
   return (
-    <div className={classes.section}>
+    <div>
       <section className={classes.section}>
         <h1>Programming Projects</h1>
-        <li>
+        <ul>
           <ProjectItem
-            image="https://images.squarespace-cdn.com/content/v1/5dc885d0e8c8347aab579042/1639372236539-AHCM07SYQ4LOJW8BPFKE/AvMT8X.gif?format=500w"
-            title="Project Title"
-            description="Test Description"
+            image="https://images.squarespace-cdn.com/content/v1/5dc885d0e8c8347aab579042/1603916441336-FLWIWI0M0A4KM57BA9Z1/Screenshot_20201028-155801.png?format=300w"
+            title="Unity Weather"
+            description="A weather app created in Unity that pulls the user's weather information from an API and dynamically displays their local weather in a 3D environment."
+            link="https://www.bendesign.net/work/personalprojects#:~:text=audio%20in%20Audacity.-,Unity%20Weather,-Solo%20project%2C%20Google"
           />
-        </li>
+        </ul>
       </section>
     </div>
   );

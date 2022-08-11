@@ -12,7 +12,9 @@ function PojectItem(props) {
         <p>{props.description}</p>
       </div>
       <div className={classes.actions}>
-        <button onClick={"/game-design"}>Go to Project</button>
+        <a href={props.link} target="_blank" rel="noreferrer">
+          <button>Go to Project</button>
+        </a>
       </div>
     </Card>
   );
