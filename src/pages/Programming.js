@@ -22,7 +22,7 @@ function Programming() {
           <h1>Programming Projects</h1>
           <ul>
             <ProjectItem
-              image=""
+              image="https://i.imgur.com/LqIYj3J.png"
               title="This Website!"
               description="I wanted to create a custom porftolio website that fit my needs of displaying game design content separately from programming content. I ditched that orginal design but still ended up with a custom website and more experience programming."
               link="blaster73.github.io/portfolio"
