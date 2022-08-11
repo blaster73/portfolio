@@ -8,13 +8,13 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/portfolio">Home</Link>
           </li>
           <li>
-            <Link to="/programming">Programming</Link>
+            <Link to="/portfolio/programming">Programming</Link>
           </li>
           <li>
-            <Link to="/game-design">Game Design</Link>
+            <Link to="/portfolio/game-design">Game Design</Link>
           </li>
         </ul>
       </nav>

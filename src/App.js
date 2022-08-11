@@ -8,8 +8,8 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/programming" element={<Programming />} />
-        <Route path="/game-design" element={<GameDesign />} />
+        <Route path="/portfolio/programming" element={<Programming />} />
+        <Route path="/portfolio/game-design" element={<GameDesign />} />
       </Routes>
     </Layout>
   );
