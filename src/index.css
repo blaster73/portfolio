@@ -1,3 +1,7 @@
+:root {
+  --bg-color: grey;
+}
+
 .btn--alt {
   background-color: transparent;
   color: #800040;

@@ -1,6 +1,6 @@
 body {
-    background-color: #303030;
-  }
+  background-color: #303030;
+}
 
 .divbackground {
   padding-top: 1px;
@@ -24,11 +24,15 @@ body {
   padding-bottom: 1px;
 }
 
+.divbackground3 {
+  border: none !important;
+}
+
 .divholder {
   width: auto;
 }
 
 .section {
-    margin-top: 60px;
-    margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }

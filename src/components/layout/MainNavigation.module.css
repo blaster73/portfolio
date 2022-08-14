@@ -5,7 +5,7 @@
     position: fixed;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     z-index: 1;
   }
   

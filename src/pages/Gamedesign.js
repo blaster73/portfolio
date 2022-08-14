@@ -10,7 +10,7 @@ function GameDesign() {
           <ul>
             <ProjectItem
               image="https://images.squarespace-cdn.com/content/v1/5dc885d0e8c8347aab579042/1639372236539-AHCM07SYQ4LOJW8BPFKE/AvMT8X.gif?format=500w"
-              title="GMTK Game Jam 2021 - Solo Project - SUCPOP"
+              title="GMTK Game Jam Solo Project - 2021"
               description={
                 'This was a small game created over the coarse of a weekend. The theme was "Joined Together." I created every aspect of the game from the art and programming to the sounds effects and design.'
               }
@@ -21,13 +21,13 @@ function GameDesign() {
       </div>
       <div className={classes.divbackground2}>
         <section className={classes.section}>
-          <h1>Programming Projects</h1>
+          <h1>Chimp Chat</h1>
           <ul>
             <ProjectItem
-              image="https://i.imgur.com/LqIYj3J.png"
-              title="This Website!"
-              description="I wanted to create a custom porftolio website that fit my needs of displaying game design content separately from programming content. I ditched that orginal design but still ended up with a custom website and more experience programming."
-              link="blaster73.github.io/portfolio"
+              image="https://images.squarespace-cdn.com/content/v1/5dc885d0e8c8347aab579042/1651506786648-46QOMZHL0XVY4PSMVY2O/jane+6.jpg?format=500w"
+              title="National Geographic - 2021"
+              description="Learn to communicate with chimps! Use your voice to mimmick chimpanzee vocalizations. I was a game designer, UI/UX designer, and programmer on this project."
+              link="https://www.nationalgeographic.org/tickets/events/event/becoming-jane/"
             />
           </ul>
         </section>

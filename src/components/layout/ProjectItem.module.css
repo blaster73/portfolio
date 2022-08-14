@@ -1,46 +1,98 @@
 .item {
-    margin: 1rem 0;
-  }
-  
-  .image {
-    max-width: 100%;
-    height: 30rem;
-    overflow: hidden;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
-  }
-  
-  .image img {
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .content {
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  .content h3 {
-    font-size: 1.25rem;
-    color: #2c292b;
-  }
-  
-  .actions {
-    padding: 1.5rem;
-    text-align: center;
-  }
-  
-  .actions button {
-    font: inherit;
-    cursor: pointer;
-    color: #77002e;
-    border: 1px solid #77002e;
-    background-color: transparent;
-    padding: 0.5rem 1.5rem;
-    border-radius: 4px;
-  }
-  
-  .actions button:hover,
-  .actions button:active {
-    background-color: #ffe2ed;
-  }
+  margin: 1rem 0;
+}
+
+.image {
+  max-width: 100%;
+
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+.actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}
+
+body {
+  --primary-color:
+}
+
+.background-red {
+  background-color: red;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.divbackground {
+  padding-top: 1px;
+  background-color: var(--primary-color);
+  margin-left: 192px;
+  justify-content: left;
+  width: auto;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.divbackground2 {
+  padding-top: 1px;
+  background-color: rgb(255, 118, 118);
+  margin-left: 192px;
+  margin-right: 0%;
+  justify-content: left;
+  width: auto;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.divbackground3 {
+  padding-top: 1px;
+  background-color: rgb(92, 92, 92);
+  margin-left: 192px;
+  justify-content: left;
+  width: auto;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.divholder {
+  width: auto;
+}
+
+.section {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
