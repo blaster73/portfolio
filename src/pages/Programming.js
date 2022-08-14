@@ -1,12 +1,12 @@
 import ProjectItem from "../components/layout/ProjectItem";
-import classes from "./Programming.module.css";
+import classes from "./Page.module.css";
 
 function Programming() {
   return (
     <div className={classes.divholder}>
       <div className={classes.divbackground}>
         <section className={classes.section}>
-          <h1>Programming Projects</h1>
+          <h1>Unity Weather</h1>
           <ul>
             <ProjectItem
               image="https://images.squarespace-cdn.com/content/v1/5dc885d0e8c8347aab579042/1603916441336-FLWIWI0M0A4KM57BA9Z1/Screenshot_20201028-155801.png?format=300w"
