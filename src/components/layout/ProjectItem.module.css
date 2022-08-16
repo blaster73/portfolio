@@ -4,7 +4,6 @@
 
 .image {
   max-width: 100%;
-
   overflow: hidden;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
@@ -21,6 +20,11 @@
 }
 
 .content h3 {
+  font-size: 1.33rem;
+  color: #2c292b;
+}
+
+.content p {
   font-size: 1.25rem;
   color: #2c292b;
 }
@@ -46,7 +50,7 @@
 }
 
 body {
-  --primary-color:
+  --primary-color: ;
 }
 
 .background-red {
@@ -95,4 +99,13 @@ body {
 .section {
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+.section h1{
+  color: antiquewhite;
+  font-size: 2rem;
+  border-bottom: 2px solid aliceblue;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-shadow: 2px 2px #505050;
 }

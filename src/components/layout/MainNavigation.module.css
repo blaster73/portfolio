@@ -18,10 +18,9 @@
   
   .header ul {
     list-style: none;
-    margin: 10rem;
-    padding: 10rem;
+    padding: 10vw;
     display: flex;
-    align-items: baseline;
+    align-items: left;
   }
   
   .header li {
