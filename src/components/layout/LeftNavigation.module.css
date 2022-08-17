@@ -13,6 +13,12 @@
     clear: both;
 }
 
+.navbarclosed {
+    min-width: 0px;
+    width: 0;
+    justify-content: left;
+}
+
 .navmenu {
     justify-content: center;
     position: fixed;
@@ -28,6 +34,20 @@
 .navmenu h3{
     color: rgb(200, 200, 200);
     font-size: 1.75 rem;
+}
+
+.navmenuclosed {
+    width: 0;
+}
+
+.navmenuclosed h2{
+    color: rgba(200, 200, 200, 0);
+    font-size: 0;
+}
+
+.navmenuclosed h3{
+    color: rgba(200, 200, 200, 0);
+    font-size: 0;
 }
 
 .text {

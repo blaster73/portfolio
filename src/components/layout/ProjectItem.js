@@ -6,9 +6,12 @@ function PojectItem(props) {
 
   return (
     <div className={classes.divholder}>
-      <div className={classes.divbackground}       style={{
-        backgroundColor: bgColor,
-      }}>
+      <div
+        className={classes.divbackground}
+        style={{
+          backgroundColor: bgColor,
+        }}
+      >
         <section className={classes.section}>
           <h1>{props.title}</h1>
           <Card>
