@@ -5,7 +5,7 @@ function PojectItem(props) {
   const bgColor = props.color;
 
   return (
-    <div className={classes.divholder}>
+    <div>
       <div
         className={ props.fullWidth ? classes.divbackground : classes.divbackgroundfull}
         style={{

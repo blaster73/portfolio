@@ -19,10 +19,15 @@
     justify-content: left;
 }
 
+.navlink{
+    color: rgb(200, 200, 200);
+    font-size: 1rem;
+}
+
 .navmenu {
     justify-content: center;
     position: fixed;
-    top: 5%;
+    top: 1%;
     font-size: 1.75 rem;
 }
 

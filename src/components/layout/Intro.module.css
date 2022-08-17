@@ -2,20 +2,17 @@
   background-color: rgb(10, 10, 10);
   padding: 5%;
   margin-left: 192px;
-  justify-content: left;
-  width: auto;
-  text-align: center;
   padding-bottom: 1px;
 }
 
 .introdiv h3 {
-  font-size: 3rem;
+  font-size: 3vw;
   color: aliceblue;
   text-align: center;
 }
 
 .introdiv h2 {
-  font-size: 2rem;
+  font-size: 2vw;
   color: aliceblue;
   text-align: center;
   padding: 0 0 40px 0;
@@ -23,7 +20,7 @@
 }
 
 .introdiv p {
-  font-size: 1.75rem;
+  font-size: 1.75vw;
   color: aliceblue;
   text-align: center;
   padding: 0 0 40px 0;
@@ -35,20 +32,18 @@
 .introdivfull {
   background-color: rgb(10, 10, 10);
   padding: 5%;
-  justify-content: left;
-  width: auto;
-  text-align: center;
+  margin-top: 0;
   padding-bottom: 1px;
 }
 
 .introdivfull h3 {
-  font-size: 3rem;
+  font-size: 3vw;
   color: aliceblue;
   text-align: center;
 }
 
 .introdivfull h2 {
-  font-size: 2rem;
+  font-size: 2vw;
   color: aliceblue;
   text-align: center;
   padding: 0 0 40px 0;
@@ -56,7 +51,7 @@
 }
 
 .introdivfull p {
-  font-size: 1.75rem;
+  font-size: 1.75vw;
   color: aliceblue;
   text-align: center;
   padding: 0 0 40px 0;

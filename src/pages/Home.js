@@ -4,9 +4,9 @@ import classes from "./Page.module.css";
 
 function Home(props) {
   return (
-    <div>
+    <div id="intro">
       <Intro fullWidth={props.fullWidth} />
-      <div>
+      <div id="content">
         <ProjectItem
           fullWidth={props.fullWidth}
           color="rgb(179, 179, 179)"
@@ -26,6 +26,7 @@ function Home(props) {
           link="blaster73.github.io/portfolio"
         />
         <ProjectItem
+          id="unityweather"
           fullWidth={props.fullWidth}
           color="rgb(102, 102, 102)"
           image="https://i.imgur.com/SJYZ533.png"
@@ -35,6 +36,7 @@ function Home(props) {
           link="https://www.bendesign.net/work/personalprojects#:~:text=audio%20in%20Audacity.-,Unity%20Weather,-Solo%20project%2C%20Google"
         />
       </div>
+      <div id="footer">footer</div>
     </div>
   );
 }

@@ -1,17 +1,34 @@
 import classes from "./LeftNavigation.module.css";
 import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function LeftNavigation(props) {
   return (
-    <div> 
+    <div>
       <nav className={props.showSidebar ? classes.navbar : classes.navbarclosed}>
         <ul className={props.showSidebar ? classes.navmenu : classes.navmenuclosed}>
-          <h2>TODO</h2>
-          <h3>dynamically</h3>
-          <h3>scroll</h3>
-          <h3>to</h3>
-          <h3>page</h3>
-          <h3>sections</h3>
+          <Link
+            className={classes.navlink}
+            to="intro"
+            spy={true}
+            smooth={true}
+            duration={500}
+          ><h3>Intro</h3></Link>
+          <Link
+            className={classes.navlink}
+            to="content"
+            spy={true}
+            smooth={true}
+            duration={500}
+          ><h3>Works</h3></Link>
+          <Link
+            className={classes.navlink}
+            to="footer"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          ><h3>Contact</h3></Link>
         </ul>
       </nav>
     </div>
