@@ -5,7 +5,7 @@ import LeftNavigation from "./LeftNavigation";
 function Layout(props) {
   return (
     <div>
-      <LeftNavigation />
+      <LeftNavigation showSidebar={props.showSidebar} />
       <MainNavigation />
       <main className={classes.main}>{props.children}</main>
     </div>

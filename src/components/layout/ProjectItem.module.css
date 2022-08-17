@@ -71,22 +71,9 @@ body {
   padding-bottom: 1px;
 }
 
-.divbackground2 {
+.divbackgroundfull {
   padding-top: 1px;
-  background-color: rgb(255, 118, 118);
-  margin-left: 192px;
-  margin-right: 0%;
-  justify-content: left;
-  width: auto;
-  text-align: center;
-  padding-bottom: 1px;
-}
-
-.divbackground3 {
-  padding-top: 1px;
-  background-color: rgb(92, 92, 92);
-  margin-left: 192px;
-  justify-content: left;
+  background-color: var(--primary-color);
   width: auto;
   text-align: center;
   padding-bottom: 1px;

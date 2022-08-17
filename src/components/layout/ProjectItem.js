@@ -7,7 +7,7 @@ function PojectItem(props) {
   return (
     <div className={classes.divholder}>
       <div
-        className={classes.divbackground}
+        className={ props.fullWidth ? classes.divbackground : classes.divbackgroundfull}
         style={{
           backgroundColor: bgColor,
         }}

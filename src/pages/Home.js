@@ -2,12 +2,13 @@ import ProjectItem from "../components/layout/ProjectItem";
 import Intro from "../components/layout/Intro";
 import classes from "./Page.module.css";
 
-function Home() {
+function Home(props) {
   return (
     <div>
-      <Intro></Intro>
+      <Intro fullWidth={props.fullWidth} />
       <div>
         <ProjectItem
+          fullWidth={props.fullWidth}
           color="rgb(179, 179, 179)"
           image="https://images.squarespace-cdn.com/content/v1/5dc885d0e8c8347aab579042/1651267976476-BET6LWPEFKBEUFPZWQO8/tp8.jpg?format=750w"
           title="Treasure Party"
@@ -16,6 +17,7 @@ function Home() {
           link="https://www.bendesign.net/work/treasure-party"
         />
         <ProjectItem
+          fullWidth={props.fullWidth}
           color="rgb(255, 122, 112)"
           image="https://i.imgur.com/LqIYj3J.png"
           title="This Website!"
@@ -24,6 +26,7 @@ function Home() {
           link="blaster73.github.io/portfolio"
         />
         <ProjectItem
+          fullWidth={props.fullWidth}
           color="rgb(102, 102, 102)"
           image="https://i.imgur.com/SJYZ533.png"
           title="Unity Weather"
