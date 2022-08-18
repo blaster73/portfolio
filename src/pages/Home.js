@@ -1,10 +1,11 @@
 import ProjectItem from "../components/layout/ProjectItem";
 import Intro from "../components/layout/Intro";
+import Footer from "../components/layout/Footer";
 import classes from "./Page.module.css";
 
 function Home(props) {
   return (
-    <div id="intro">
+    <div id="intro" className={classes.test}>
       <Intro fullWidth={props.fullWidth} />
       <div id="content">
         <ProjectItem
@@ -25,6 +26,7 @@ function Home(props) {
           description="I wanted to create a custom porftolio website that fit my needs of displaying game design content separately from programming content. I ditched that orginal design but still ended up with a custom website and more experience programming."
           link="blaster73.github.io/portfolio"
         />
+
         <ProjectItem
           id="unityweather"
           fullWidth={props.fullWidth}
@@ -36,7 +38,9 @@ function Home(props) {
           link="https://www.bendesign.net/work/personalprojects#:~:text=audio%20in%20Audacity.-,Unity%20Weather,-Solo%20project%2C%20Google"
         />
       </div>
-      <div id="footer">footer</div>
+      <div id="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -3,20 +3,20 @@ import { useSpring, animated } from "react-spring";
 
 function Intro(props) {
   const delay1 = useSpring({
-    to: { opacity: 1 },
-    from: { opacity: 0 },
+    from: { opacity: 0, y:+50 },
+    to: { opacity: 1, y: 0},
     delay: 300,
   });
 
   const delay2 = useSpring({
-    to: { opacity: 1 },
-    from: { opacity: 0 },
+    from: { opacity: 0, y:+50 },
+    to: { opacity: 1, y: 0 },
     delay: 550,
   });
 
   const delay3 = useSpring({
-    to: { opacity: 1 },
-    from: { opacity: 0 },
+    from: { opacity: 0, y:+50 },
+    to: { opacity: 1, y: 0 },
     delay: 800,
   });
 

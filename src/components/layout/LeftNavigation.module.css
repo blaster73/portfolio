@@ -1,60 +1,56 @@
 .navbar {
-    background-color: rgb(10, 10, 10);
-    height: 100vh;
-    position: fixed;
-    display: flex;
-    left: 0px;
-    top: 0;
-    min-width: 200px;
-    width: 7.5vw;
-    justify-content: flex-start;
-    align-items: left;
-    z-index: 1;
-    clear: both;
+  background-color: rgb(10, 10, 10);
+  height: 100%;
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0;
+  min-width: 200px;
+  width: 7.5vw;
+  justify-content: flex-start;
+  align-items: left;
+  z-index: 1;
+  clear: both;
 }
 
 .navbarclosed {
-    min-width: 0px;
-    width: 0;
-    justify-content: left;
+  min-width: 0px;
+  width: 0;
+  justify-content: left;
 }
 
-.navlink{
-    color: rgb(200, 200, 200);
-    font-size: 1rem;
+.navlink {
+  color: rgb(200, 200, 200);
+  font-size: 1rem;
 }
 
 .navmenu {
-    justify-content: center;
-    position: fixed;
-    top: 1%;
-    font-size: 1.75 rem;
+  justify-content: center;
+  position: fixed;
+  top: 1%;
+  font-size: 1.75 rem;
 }
 
-.navmenu h2{
-    color: rgb(200, 200, 200);
-    font-size: 1rem;
+.navmenu h2 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(200, 200, 200);
+  font-size: 1.75 rem;
 }
 
-.navmenu h3{
-    color: rgb(200, 200, 200);
-    font-size: 1.75 rem;
-}
+.navmenu h2:hover {
+    color: rgb(255, 255, 255);
+  }
 
 .navmenuclosed {
-    width: 0;
+  width: 0;
 }
 
-.navmenuclosed h2{
-    color: rgba(200, 200, 200, 0);
-    font-size: 0;
+.navmenuclosed h2 {
+  color: rgba(200, 200, 200, 0);
+  font-size: 0;
 }
 
-.navmenuclosed h3{
-    color: rgba(200, 200, 200, 0);
-    font-size: 0;
-}
-
-.text {
-    color: rgb(200, 200, 200);
+.navmenuclosed h3 {
+  color: rgba(200, 200, 200, 0);
+  font-size: 0;
 }

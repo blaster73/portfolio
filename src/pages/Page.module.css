@@ -1,5 +1,10 @@
 body {
-  background-color: #303030;
+  background-color: #000000;
+}
+
+.test {
+  height: 100%;
+  margin: 0;
 }
 
 .divbackground {
