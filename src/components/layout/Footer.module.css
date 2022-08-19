@@ -15,8 +15,12 @@
 
 .footer p {
     color: rgb(200, 200, 200);
-    text-decoration: underline;
+    font-size: 15px;
     font-family: "Roboto", sans-serif;
+}
+
+.underlined{
+    text-decoration: underline;
 }
 
 .footer h4 {
@@ -25,6 +29,7 @@
 
 .footer a {
     color: rgb(200, 200, 200);
+    font-size: 15px;
 }
 
 .footer a:hover {
@@ -37,4 +42,8 @@
 
 .footer h2 {
     color: rgb(255, 255, 255);
+}
+
+.sidelist {
+    display: flex;
 }
